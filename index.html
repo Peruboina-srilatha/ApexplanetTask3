@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task 3 Combined Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Task 3 Project 🚀</h1>
+
+  <!-- 🔁 Image Carousel -->
+  <div class="carousel">
+    <h2>Image Carousel</h2>
+    <img id="carousel-image" src="" alt="carousel image">
+
+    <div class="buttons">
+      <button onclick="prevImage()">⬅ Prev</button>
+      <button onclick="nextImage()">Next ➡</button>
+    </div>
+  </div>
+
+  <!-- 🧠 Quiz -->
+  <div class="quiz-container">
+    <h2 id="question">Question here</h2>
+    <div id="answers"></div>
+    <button onclick="nextQuestion()">Next</button>
+  </div>
+
+  <!-- 🌐 API -->
+  <div class="api-container">
+    <h2>Random Joke 😂</h2>
+    <p id="joke">Click button to load joke</p>
+    <button onclick="getJoke()">Get Joke</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
